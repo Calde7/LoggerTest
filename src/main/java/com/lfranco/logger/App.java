@@ -8,7 +8,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         try {
-            System.out.println("*** Desarrollado por Leandro Franco ***");
+            System.out.println("*** Desarrollado por Leandro Franco en master ***");
             Action a = new Action();
             a.setLog();
         } catch (Exception e) {
