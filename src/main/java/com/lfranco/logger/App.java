@@ -1,7 +1,7 @@
 package com.lfranco.logger;
 
 /**
- * Strategy merge by lfranco-olx
+ * Calde7 necesita modificar master
  *
  */
 public class App {
