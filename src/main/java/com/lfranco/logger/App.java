@@ -1,7 +1,7 @@
 package com.lfranco.logger;
 
 /**
- * Hello world!
+ * Strategy merge by lfranco-olx
  *
  */
 public class App {
