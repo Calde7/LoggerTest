@@ -54,6 +54,7 @@ public class JobLogger {
             File logFile = new File(dbParams.get("logFileFolder") + "/logFile.txt");
             if (!logFile.exists()) {
                 logFile.createNewFile();
+
             }
             FileHandler fh = new FileHandler(dbParams.get("logFileFolder") + "/logFile.txt");
             logger.addHandler(fh);
@@ -71,7 +72,7 @@ public class JobLogger {
             }
             return true;
         } catch (Exception e) {
-            e.getMessage();
+            logger.log(Level.SEVERE, e.getMessage());
             return false;
         }
 
