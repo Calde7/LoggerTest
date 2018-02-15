@@ -72,7 +72,7 @@ public class JobLogger {
             }
             return true;
         } catch (Exception e) {
-            logger.log(Level.WARNING, e.getMessage());
+            logger.log(Level.SEVERE, e.getMessage());
             return false;
         }
 
